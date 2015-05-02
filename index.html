@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>Tryout</title>
+
+
+
+
+<head>
+
+<body>
+<button id="tryout">Do it</button>
+<button id="clear">Clear</button>
+<div id="results"></div>
+<script src="js/zepto.js"></script>
+<script src="js/tryout.js"></script>
+<script>
+$('#tryout').click(function(){
+	tryout.doIt($('#results'));
+});
+
+$('#clear').click(function(){
+	$('#results').html('');
+});
+
+</script>
+
+
+</body>
+
+
+</html>
